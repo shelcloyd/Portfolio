@@ -12,7 +12,7 @@ header {
     text-align: right;
     padding: 20px;
 }
-header a { 
+header nav a { 
     color: white;
     text-decoration: none;
     font-size: 25px;
@@ -32,10 +32,43 @@ header a {
 #home {
     color: white;
     position: absolute;
-    top: 380px;
-    
+    top: 350px;
+    text-align: center;
+    display: block;
+    margin-left: 25%;
+    margin-right: 25%;
 }
 
+#home p {
+    color: rgb(184, 156, 216);
+    font-size: 90%;
+    padding: 10px;
+}
+
+#home h1 {
+    font-size: 300%;
+    font-weight: lighter;
+}
+
+#home button {
+    padding: 5px;
+    margin-top: 20px;
+    background-color: transparent;
+    border-color: rgb(184, 156, 216);
+    border-radius: 10px;
+    width: 100px;
+}
+
+#home button a {
+    text-decoration: none;
+    color: rgb(184, 156, 216);
+}
+
+#home button:hover {
+    cursor: pointer;
+    box-shadow: rgb(184, 156, 216) 0 0 15px 1px;
+    transition: .15s;
+}
 
 
 
@@ -46,19 +79,6 @@ header a {
       flex-direction: column;
       column-count: 2;
     }
-    /* Make the sidebar stack below the body */
-    aside {
-      order: 2;
-    }
-    /* Change the header background */
-    header {
-      background: #772014;
-    }
-    /* Change the navbar and footer background */
-    nav,
-    footer {
-      background-color: #bb8588;
-    }
   }
 
   @media screen and (max-width: 480px) {
@@ -67,18 +87,5 @@ header a {
     nav, #skills, #portfolio {
       flex-direction: column;
       column-count: 1;
-    }
-    /* Make the sidebar stack below the body */
-    aside {
-      order: 2;
-    }
-    /* Change the header background */
-    header {
-      background: #772014;
-    }
-    /* Change the navbar and footer background */
-    nav,
-    footer {
-      background-color: #bb8588;
     }
   }
