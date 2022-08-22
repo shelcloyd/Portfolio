@@ -1,0 +1,84 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+header {
+    background-color: rgb(0, 0, 27);
+    text-align: right;
+    padding: 20px;
+}
+header a { 
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.dark-smoke {
+    height: 825px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("./assets/images/color-smoke-abstract-wallpaper-aesthetic-background-design.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+#home {
+    color: white;
+    position: absolute;
+    top: 380px;
+    
+}
+
+
+
+
+@media screen and (max-width: 768px) {
+    /* Use flex-direction to stack the navbar, sidebar, and body */
+    main,
+    nav, #skills, #portfolio {
+      flex-direction: column;
+      column-count: 2;
+    }
+    /* Make the sidebar stack below the body */
+    aside {
+      order: 2;
+    }
+    /* Change the header background */
+    header {
+      background: #772014;
+    }
+    /* Change the navbar and footer background */
+    nav,
+    footer {
+      background-color: #bb8588;
+    }
+  }
+
+  @media screen and (max-width: 480px) {
+    /* Use flex-direction to stack the navbar, sidebar, and body */
+    main,
+    nav, #skills, #portfolio {
+      flex-direction: column;
+      column-count: 1;
+    }
+    /* Make the sidebar stack below the body */
+    aside {
+      order: 2;
+    }
+    /* Change the header background */
+    header {
+      background: #772014;
+    }
+    /* Change the navbar and footer background */
+    nav,
+    footer {
+      background-color: #bb8588;
+    }
+  }
