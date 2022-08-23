@@ -7,49 +7,56 @@ body {
     margin: 0;
 }
 
+/* mav list */
+.nav-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    justify-content: right;
+    font-size: 25px;
+    font-weight: bold;
+}
 header {
     background-color: rgb(0, 0, 27);
-    text-align: right;
-    padding: 20px;
+    padding: 1rem;
 }
 header nav a { 
     color: white;
     text-decoration: none;
-    font-size: 25px;
-    font-weight: bold;
-    padding: 10px;
 }
 
+
+/* home background image */
 .dark-smoke {
-    height: 825px;
+    height: 830px;
     width: 100%;
     margin-bottom: 25px;
     background-image: url("./assets/images/color-smoke-abstract-wallpaper-aesthetic-background-design.jpg");
     background-size: cover;
     background-position: center;
 }
-
+/* home content */
 #home {
-    color: white;
     position: absolute;
-    top: 350px;
+    top: 315px;
+    left: 25%;
+    right: 25%;
+    justify-content: center;
     text-align: center;
-    display: block;
-    margin-left: 25%;
-    margin-right: 25%;
 }
-
 #home p {
-    color: rgb(184, 156, 216);
+    color: rgb(202, 178, 230);
     font-size: 90%;
     padding: 10px;
 }
-
 #home h1 {
+    color: white;
     font-size: 300%;
     font-weight: lighter;
 }
-
 #home button {
     padding: 5px;
     margin-top: 20px;
@@ -58,17 +65,37 @@ header nav a {
     border-radius: 10px;
     width: 100px;
 }
-
 #home button a {
     text-decoration: none;
     color: rgb(184, 156, 216);
 }
-
 #home button:hover {
     cursor: pointer;
     box-shadow: rgb(184, 156, 216) 0 0 15px 1px;
     transition: .15s;
 }
+#home button:active {
+    cursor: pointer;
+    box-shadow: rgb(184, 156, 216) 0 0 15px 1px;
+    transition: .15s;
+}
+
+
+/* about me */
+.portrait {
+    max-width: 15%;
+    position: relative;
+    margin-top: 3%;
+    margin-left: 10%;
+}
+#about-me {
+    display: block;
+    position: relative;
+    max-width: 50%;
+    margin-left: 30%;
+    margin-top: 3px;
+}
+
 
 
 
