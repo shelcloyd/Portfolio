@@ -8,13 +8,14 @@
     <link rel="stylesheet" href="portfolio.css">
 </head>
 
+<div class="main">
 <Body>
 
-    <header>
+    <header id="top-page">
         <!-- nav links -->
         <nav>
             <ul class="nav-list">
-            <li><a href="#home">Home</a></li>
+            <li><a href="#top-page">Home</a></li>
             <li><a href="#about-me">About</a></li>
             <li><a href="#skills">Skills</a></li>
             <li><a href="#portfolio">Portfolio</a></li>
@@ -100,76 +101,99 @@
     </section>
     <section id="skills">
         <!-- Skills -->
+        <div id="skills-header">
         <h3>My Skills</h3>
         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error aspernatur nostrum mollitia tenetur
             consequatur, ad eum quod alias similique impedit quasi totam veritatis veniam nesciunt reprehenderit
             possimus, excepturi perspiciatis obcaecati!</p>
+        </div>
         <!--Percentage bars -->
-        <div>
+        <div id="web-dev">
             <h4>Web Development</h4>
-            <div>
-                <p>HTML</p>
-                <div>90%</div>
+            <p>HTML</p>
+            <div class="container">
+                <div class="skills-html">90%</div>
             </div>
 
-            <div>
-                <p>CSS</p>
-                <div>90%</div>
+            <p>CSS</p>
+            <div class="container">
+                <div class="skills-css">85%</div>
             </div>
 
-            <div>
-                <p>JavaScript</p>
-                <div>90%</div>
+            <p>JavaScript</p>
+            <div class="container">
+                <div class="skills-js">25%</div>
             </div>
 
-            <div>
-                <p>Kotlin</p>
-                <div>90%</div>
+            <p>Kotlin</p>
+            <div class="container">
+                <div class="skills-kotlin">10%</div>
             </div>
         </div>
 
-        <div>
+        <div id="graphic">
             <h4>Graphic Design</h4>
-            <div>
-                <p>Illustrator</p>
-                <div>90%</div>
+            <p>Illustrator</p>
+            <div class="container">
+                <div class="skills-illustrator">100%</div>
             </div>
 
-            <div>
-                <p>Photoshop</p>
-                <div>90%</div>
+            <p>Photoshop</p>
+            <div class="container">
+                <div class="skills-photoshop">100%</div>
             </div>
 
-            <div>
-                <p>InDesign</p>
-                <div>90%</div>
+            <p>InDesign</p>
+            <div class="container">
+                <div class="skills-indesign">80%</div>
             </div>
 
-            <div>
-                <p>Illustration</p>
-                <div>90%</div>
+            <p>Photography</p>
+            <div class="container">
+                <div class="skills-photography">85%</div>
             </div>
         </div>
     </section>
     <!-- Portfolio -->
     <section id="portfolio">
         <h2>Portfolio</h2>
-        <article>
-            <img src="./assets/images/Screenshot (6).png" alt="horiseon code refactor">
-            <a href="https://shelcloyd.github.io/horiseon-code-refactor/" target="_blank">Horiseon Code Refactor</a>
-        </article>
-        <article>
-            <img src="./assets/images/IMG-2655.jpg" alt="Street artist L7M magazine spread">
-            <a href="./assets/images/IMG-2655.jpg" target="_blank">Magazine Spread Mock-Up</a>
-        </article>
-        <article>
-            <img src="./assets/images/IMG-2709.JPG" alt="Ahsoka Tano illustrative graphic">
-            <a href="./assets/images/IMG-2709.JPG" target="_blank">Ahsoka Tano</a>
-        </article>
-        <article>
-            <img src="./assets/images/IMG-2710.JPG" alt="Darth Maul illustrative graphic">
-            <a href="./assets/images/IMG-2710.JPG" target="_blank">Darth Maul</a>
-        </article>
+
+        <div class="content">
+            <img src="assets/images/IMG-2658.jpg" alt="Black and white graphic of a lotus flower" style="width:100%">
+            <h3>Logo Design: Holistic Doula Services</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias tempore enim obcaecati eius eaque delectus mollitia id, optio ad, voluptatibus praesentium harum doloremque. Eligendi, repellendus libero nam asperiores id doloremque.</p>
+          </div>
+
+        <div class="row">
+            <div class="column">
+              <div class="content">
+                <img src="assets/images/Screenshot (6).png" alt="Horiseon code refactor" style="width:100%">
+                <h3>Code Refactor: Horiseon</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur maxime placeat aut, dolorem ex molestiae nisi iste? Sint quasi itaque tempora, architecto, ipsa in iure consequuntur nemo, minima quibusdam dolore.</p>
+              </div>
+            </div>
+            <div class="column">
+              <div class="content">
+                <img src="assets/images/IMG-2655.jpg" alt="Street artist L7M magazine spread" style="width:100%">
+                <h3>InDesign: Magazine Spread Mock-Up</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ea alias nisi nulla corporis numquam odio vel voluptatum reiciendis expedita, tempora unde dolorem repellat corrupti ipsum facilis, beatae hic dignissimos natus.</p>
+              </div>
+            </div>
+            <div class="column">
+              <div class="content">
+                <img src="assets/images/IMG-2710.JPG" alt="Darth Maul from Star Wars Episode 1, graphic" style="width:100%">
+                <h3>Digital Drawing: Darth Maul</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam repellat suscipit possimus magnam. Eveniet fuga, omnis reiciendis quidem possimus perspiciatis consectetur. Sapiente ullam hic accusamus, ducimus nulla excepturi maxime eius.</p>
+              </div>
+            </div>
+            <div class="column">
+              <div class="content">
+                <img src="assets/images/IMG-3543.jpg" alt="top down photo of a dahlia" style="width:100%">
+                <h3>Photography: Dahlia</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, quas quisquam? Dolorem minus tenetur perferendis sed eveniet voluptate, sapiente nisi quaerat odio inventore modi velit soluta veritatis! Corrupti, similique sapiente.</p>
+              </div>
+            </div>
+          </div>
     </section>
 
     <section id="contact">
@@ -182,6 +206,7 @@
             <li><a href="https://github.com/shelcloyd" target="_blank">GitHub</a></li>
         </ul>
     </section>
+</div>
 
     <footer>
         <p>Credits ______</p>
