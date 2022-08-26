@@ -13,6 +13,11 @@ body {
 }
 
 /* mav list */
+.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
 .nav-list {
     display: flex;
     flex-wrap: wrap;
@@ -41,7 +46,7 @@ header nav a {
     height: 900px;
     width: 100%;
     margin-bottom: 25px;
-    background-image: url("./assets/images/color-smoke-abstract-wallpaper-aesthetic-background-design.jpg");
+    background-image: url("../images/color-smoke-abstract-wallpaper-aesthetic-background-design.jpg");
     background-size: cover;
     background-position: center;
 }
