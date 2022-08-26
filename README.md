@@ -13,6 +13,9 @@ ___
 ___
 ![Skills](assets/images/skills.png "Skills")
 ___
+# Link
+https://shelcloyd.github.io/Portfolio/
+___
 ## Big Thanks to 
 ___
 rawpixel.com & ddraw for the smoke background and the placeholder avatar image - both linked in the footer of my website
